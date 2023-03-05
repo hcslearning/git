@@ -9,6 +9,8 @@ git checkout $newBranch
 # o puedes hacer las dos en una
 # este comando crea y cambia
 git checkout -b $newBranch
+# cuando queremos crear, cambiar para trabajar y traer un branch remoto 
+git checkout -b v1 origin/v1
 # ahora ya puedes realizar cambios
 # una vez que hayas realizado el commit
 # el branch al no existir en el origin
